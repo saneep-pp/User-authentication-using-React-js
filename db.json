@@ -1,0 +1,34 @@
+{
+  "user": [
+    {
+      "id": "saneep",
+      "name": "Saneep p p",
+      "password": "san1234",
+      "email": "saneeppp@gmail.com",
+      "phone": "09747314758",
+      "country": "india",
+      "address": "Kochi, Kerala",
+      "gender": "male"
+    },
+    {
+      "id": "user",
+      "name": "useradmin",
+      "password": "s1234",
+      "email": "useradmin@gmail.com",
+      "phone": "8596746251",
+      "country": "india",
+      "address": "Kochi, Kerala",
+      "gender": "male"
+    },
+    {
+      "id": "user1",
+      "name": "user1name",
+      "password": "12345",
+      "email": "useradmin@gmail.com",
+      "phone": "08596746251",
+      "country": "india",
+      "address": "Kerala",
+      "gender": "male"
+    }
+  ]
+}
