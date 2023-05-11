@@ -21,28 +21,25 @@ const Register = () => {
       errormessage += " Username";
     }
     if (name === null || name === "") {
-        isProceed = false;
-        errormessage += " Full Name";
-      }
-      if (email === null || email === "") {
-        isProceed = false;
-        errormessage += " Email";
-      }
-      if (password === null || password === "") {
-        isProceed = false;
-        errormessage += " Password";
-      }
+      isProceed = false;
+      errormessage += " Full Name";
+    }
+    if (email === null || email === "") {
+      isProceed = false;
+      errormessage += " Email";
+    }
+    if (password === null || password === "") {
+      isProceed = false;
+      errormessage += " Password";
+    }
     if (!isProceed) {
       toast.warning(errormessage);
-    }
-    else{
-        if(/^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/.test(email)){
-
-        }
-        else{
-            isProceed=false;
-            toast.warning("Please Enter the valid Email");
-        }
+    } else {
+      if (/^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/.test(email)) {
+      } else {
+        isProceed = false;
+        toast.warning("Please Enter the valid Email");
+      }
     }
     return isProceed;
   };
